@@ -1,61 +1,79 @@
 # Employee Department Report
 
-This project is a practice exercise completed as part of a Coursera Python course. It demonstrates how to read data from a CSV file, process it using Python, and generate a report summarizing the number of employees in each department.
+A simple Python program that reads employee information from a CSV file, counts the number of employees in each department, and generates a text report.
+
+---
 
 ## Features
 
-* Reads employee data from a CSV file
-* Uses Python's built-in `csv` module
-* Counts employees in each department
-* Generates a text report (`report.txt`)
-* Demonstrates file handling, dictionaries, and CSV processing
+- Reads employee data from a CSV file
+- Uses Python's built-in `csv` module
+- Counts employees in each department
+- Generates a text report (`report.txt`)
+- Simple and easy to modify
+
+---
 
 ## Project Structure
 
-```text
+```
 employee-department-report/
 │
 ├── department_report.py   # Main Python script
-├── employees.csv          # Sample input data
-├── report.txt             # Generated output
+├── employees.csv          # Input employee data
+├── report.txt             # Generated report
 ├── .gitignore
 └── README.md
 ```
 
+---
+
 ## Requirements
 
-* Python 3.x
+- Python 3.x
+- Linux (or any operating system with Python 3 installed)
+
+---
 
 ## How to Run (Linux)
 
-1. Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/employee-department-report.git
 ```
 
-2. Move into the project directory:
+### 2. Navigate to the project directory
 
 ```bash
 cd employee-department-report
 ```
 
-3. Run the script:
+### 3. (Optional) Make the script executable
+
+```bash
+chmod +x department_report.py
+```
+
+### 4. Run the program
+
+Using Python:
 
 ```bash
 python3 department_report.py
 ```
 
-Or, if the script has execute permissions and includes a shebang (`#!/usr/bin/env python3`):
+Or, if the script includes the shebang line (`#!/usr/bin/env python3`):
 
 ```bash
-chmod +x department_report.py
 ./department_report.py
 ```
 
-## Input
+---
 
-The program expects an `employees.csv` file in the project directory.
+## Input File
+
+The program expects a file named `employees.csv` in the project directory.
 
 Example:
 
@@ -68,11 +86,13 @@ Emma,Human Resources
 Michael,IT
 ```
 
+---
+
 ## Output
 
-The program creates a file named `report.txt` containing the employee count for each department.
+The program generates a file named `report.txt`.
 
-Example:
+Example output:
 
 ```text
 Human Resources:1
@@ -80,27 +100,32 @@ IT:2
 Sales:2
 ```
 
+---
+
 ## How It Works
 
 1. Reads employee records from `employees.csv`.
-2. Extracts the `Department` field from each record.
-3. Counts how many employees belong to each department.
-4. Writes the results to `report.txt` in alphabetical order.
+2. Extracts the **Department** field from each record.
+3. Counts the number of employees in each department.
+4. Writes the department counts to `report.txt` in alphabetical order.
 
-## Learning Objectives
+---
 
-This practice project demonstrates:
+## Technologies Used
 
-* Reading CSV files with `csv.DictReader`
-* Processing data using Python dictionaries
-* File input/output
-* Functions and modular programming
-* Basic data analysis using Python
+- Python 3
+- CSV module
+- Dictionaries
+- File handling
 
-## Acknowledgements
-
-This project was completed as a practice exercise while following a Python course on Coursera. It is shared for learning and portfolio purposes.
+---
 
 ## Author
 
 **Saima Mustafa**
+
+---
+
+## License
+
+This project is for educational purposes.
