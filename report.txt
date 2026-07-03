@@ -1,0 +1,7 @@
+Development:11
+Human Resources:5
+IT infrastructure:11
+Marketing:6
+Sales:8
+User Experience Research:5
+Vendor operations:4
