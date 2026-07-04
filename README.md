@@ -40,7 +40,7 @@ employee-department-report/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/employee-department-report.git
+git clone https://github.com/saimamustafa-520/employee-department-report.git
 ```
 
 ### 2. Navigate to the project directory
